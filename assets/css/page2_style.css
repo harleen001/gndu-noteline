@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+    display: flex;
+    width: 100%;
+}
+
+body {
+    background: #F8F4EF;
+    margin: 1vh;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#heading {
+    font-family: "Abhaya Libre Medium", sans-serif;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 52.8px;
+    letter-spacing: 0.2vw;
+
+}
+
+.heading2 {
+    font-family: 'Abhaya Libre', sans-serif;
+    margin: 0;
+    font-size: 1.2em;
+    color: #828282;
+    font-weight: 100;
+    line-height: 2cap;
+    letter-spacing: 0.1vw;
+}
+
+.navbar {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    max-height: 170px;
+    margin: 4vh 0;
+    width: 100%;
+    min-height: 130px;
+}
+
+.logo {
+    width: 200px;
+    aspect-ratio: 1;
+    padding: 1vw 4vw;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    top: -4vh;
+    left: 0;
+    position: absolute;
+}
+
+.anchors {
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: left;
+    cursor: pointer;
+    margin: 2vw 4vw;
+    padding-right: 3vw;
+}
+
+.a {
+    display: flex;
+    margin: 0 1vw;
+    text-decoration: none;
+    color: black;
+}
+
+.headings-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 4vh;
+}
+
+.select-sem {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    background-image: url("../images/selectSemBg.jpg");
+    position: relative;
+    z-index: 0;
+    flex-grow: 1;
+    margin: 4vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3vh;
+    align-self: center;
+    overflow: hidden;
+}
+
+.select-sem:before {
+    content: "";
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    background-color: #3f3f3eb9;
+    z-index: 0.1;
+    border-radius: 3vh;
+    max-width: 100%;
+
+}
+
+.sems {
+    display: grid;
+    padding: 3vh;
+    grid-template-columns: 1fr 1fr;
+    gap: 2vh 1.5vh;
+    width: 50%;
+    z-index: 1;
+}
+
+.para {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Raleway, cursive;
+    z-index: 1;
+    color: #F8F4EF;
+    font-size: 2.7em;
+}
+
+.sems a {
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+}
+
+.sems a button {
+    display: flex;
+    flex-grow: 1;
+    align-content: center;
+    justify-content: center;
+    border-radius: 2vh;
+    background: #F8F4EF;
+    transition: 0.2s ease;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 45%;
+    opacity: 0.5;
+    font-size: 2em;
+}
+
+.container img {
+    width: 40%;
+}
+
+.image-container {
+    justify-content: flex-end;
+}
+
+.sems a button:hover {
+    background: rgb(255, 229, 204);
+    scale: 0.95;
+}
