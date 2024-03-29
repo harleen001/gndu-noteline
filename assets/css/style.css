@@ -30,6 +30,10 @@ margin-left: -55%;
     font-family: 'Abhaya Libre Medium', sans-serif;
     font-size: 35px;
 }
+.icon{display: none}
+#margin{
+    margin-top: 25%;
+}
 .list-group {
 display: flex;
 width: 900px;
