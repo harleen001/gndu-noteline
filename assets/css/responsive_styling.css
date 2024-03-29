@@ -1,0 +1,74 @@
+@media only screen and (max-width: 768px) {
+    /* Adjust styles for screens smaller than 768px width */
+    #heading {
+        font-size: 24px;
+        line-height: 36px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .heading2 {
+        font-size: 18px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #firstpara {
+        font-size: 14px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #why-choose {
+        font-size: 20px;
+        margin-left: 5%;
+    }
+
+    .list-group {
+        display: block;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .logo-item {
+        display: block; /* Change display to block to stack items vertically */
+        padding: 10px; /* Add padding to create space around each item */
+    }
+
+    .logo-image {
+        width: 40px; /* Adjust logo size for smaller screens */
+        height: 40px; /* Adjust logo size for smaller screens */
+        margin-right: 0; /* Remove margin to fit within smaller space */
+        margin-bottom: 10px; /* Add margin between items */
+    }
+    .card-container {
+        margin-left: 0; /* Center the card-container */
+        width: 80%; /* Set the width to occupy most of the screen */
+    }
+
+    .card {
+        width: 100%; /* Make each card occupy the full width */
+    }
+
+    .overlay {
+        width: 260px;
+        margin-left: 5%;
+        margin-right: 2%;
+    }
+
+    #depthead {
+        font-size: 20px;
+        margin-left: 25%;
+    }
+
+    #joinus {
+        font-size: 20px;
+        margin-left: 5%;
+    }
+
+    #joinpara {
+        font-size: 14px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
