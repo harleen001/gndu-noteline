@@ -3,7 +3,7 @@
     font-weight: 500;
     font-size: 32px;
     line-height: 52.8px;
-    margin: 0; /* Reset margin to remove space */
+    margin: 0; 
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -37,7 +37,7 @@ margin-left: 10%;
 
 font-family: 'Calibri Light', sans-serif;
 font-weight: 600;
-gap: 100px; /* Adjust the gap between items */
+gap: 100px; 
 }
 .list-group-item {
 font-size: 18px;
@@ -45,8 +45,8 @@ flex: 1;
 list-style-type: none;
 }
 .list-group-item img {
-vertical-align: middle; /* Align the image vertically with the text */
-margin-right: 10px; /* Add spacing between the image and text */
+vertical-align: middle; 
+margin-right: 10px; 
 height: 50px;
 }
 
@@ -59,25 +59,25 @@ height: 50px;
 
 .container1 {
     display: flex;
-    justify-content: center; /* Center cards horizontally */
+    justify-content: center; 
 }
 
 .card-container {
     width:1000px;
    margin-left: -6%;
-    display: flex; /* Ensure cards are displayed in the same row */
-    justify-content: space-between; /* Adjust the spacing between cards */
-    flex-wrap: wrap; /* Allow cards to wrap onto the next row */
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap;
 }
 
 .card {
-    width: calc(33.33% - 20px); /* Adjust the width of each card */
+    width: calc(33.33% - 20px); 
     margin-bottom: 20px;
     position: relative;
 }
 
 .card-img {
-    height: 200px; /* Set desired height */
+    height: 200px;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -90,7 +90,7 @@ height: 50px;
     width: 285px;
     margin-left: 3%;
     margin-right: 4%;
-    background-color: rgba(255, 255,255, 0.9); /* Adjust overlay color and opacity */
+    background-color: rgba(255, 255,255, 0.9); 
     color: black;
     padding-left: 8px;
     height: 50px;
