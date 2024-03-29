@@ -209,5 +209,6 @@ body {
     .logo {
         left: 50%;
         translate: -50%;
+        transform: translateY(-2vh);
     }
 }
