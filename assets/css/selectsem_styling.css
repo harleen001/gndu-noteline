@@ -186,7 +186,12 @@ body {
     .para,
     .sems {
         width: 90%;
-        padding: 1vh;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .sems {
+        gap: 0.7vh;
     }
 
     .container p {
