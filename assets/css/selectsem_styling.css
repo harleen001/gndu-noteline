@@ -101,6 +101,7 @@ body {
     align-self: center;
     overflow: hidden;
     justify-content: center;
+    min-height: 50vh;
 }
 
 .select-sem:before {
