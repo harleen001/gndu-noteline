@@ -99,6 +99,7 @@ body {
     border-radius: 3vh;
     align-self: center;
     overflow: hidden;
+    justify-content: center;
 }
 
 .select-sem:before {
@@ -131,6 +132,7 @@ body {
     z-index: 1;
     color: #F8F4EF;
     font-size: 2.7em;
+    text-align: center;
 }
 
 .sems a {
@@ -155,20 +157,57 @@ body {
     align-items: center;
     justify-content: center;
     height: 100%;
-    width: 45%;
+    width: 75%;
     opacity: 0.5;
     font-size: 2em;
 }
 
 .container img {
-    width: 40%;
+    width: 60%;
 }
 
 .image-container {
-    justify-content: flex-end;
+    justify-content: center;
+    width: 25%;
+
 }
 
 .sems a button:hover {
     background: rgb(255, 229, 204);
     scale: 0.95;
+}
+
+@media screen and (max-width:700px) {
+    .select-sem {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .para,
+    .sems {
+        width: 90%;
+        padding: 1vh;
+    }
+
+    .container p {
+        font-size: 2.5vh !important;
+        word-break: break-all;
+        padding: 1vh 0;
+    }
+
+    .anchors {
+        width: 100%;
+        flex-direction: column;
+        transform: translateY(2vh);
+        align-self: center;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .logo {
+        left: 50%;
+        translate: -50%;
+    }
 }
