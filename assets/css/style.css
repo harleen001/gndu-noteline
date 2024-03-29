@@ -2,6 +2,8 @@ body {
     overflow-x: hidden; /* Hide horizontal scrollbar */
     overflow-y: auto; /* Hide vertical scrollbar */
 }
+/* Hide scrollbar but allow scrolling */
+/* Hide scrollbar but allow scrolling */
 
 #heading {
     font-family: 'Abhaya Libre Medium', sans-serif;
