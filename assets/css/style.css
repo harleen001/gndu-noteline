@@ -1,0 +1,50 @@
+#heading {
+    font-family: 'Abhaya Libre Medium', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 52.8px;
+    margin: 0; /* Reset margin to remove space */
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.heading2 {
+    font-family: 'Abhaya Libre Medium', sans-serif;
+    margin: 0;
+    color: #828282;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#firstpara{
+    
+    font-family: 'Abhaya Libre', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 10%;
+    margin-right: 20%;
+   
+}
+#why-choose{
+    margin-top: 3%;
+    margin-left: 35%;
+    font-family: 'Abhaya Libre Medium', sans-serif;
+    font-size: 26px;
+}
+.list-group {
+display: flex;
+flex-wrap: wrap;
+margin-left: 10%;
+
+font-family: 'Calibri Light', sans-serif;
+font-weight: 600;
+gap: 100px; /* Adjust the gap between items */
+}
+.list-group-item {
+font-size: 20px;
+flex: 1;
+list-style-type: none;
+}
+.list-group-item img {
+vertical-align: middle; /* Align the image vertically with the text */
+margin-right: 10px; /* Add spacing between the image and text */
+height: 50px;
+}
