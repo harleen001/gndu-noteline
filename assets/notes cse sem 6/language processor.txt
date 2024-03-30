@@ -1,0 +1,26 @@
+Subject- Language Processor
+section A
+1. Hand Coding and automatic generation of lexial analyser-https://drive.google.com/drive/u/3/folders/1lveT-yB1il_XjbAKxh-hHieohG2uXEiZ
+2. top down and bottom up parsing algorithms- https://drive.google.com/drive/u/3/folders/1SIHxKI1xFuNfYbnmfuiiK-2m2NrmqTHT
+3. Automatic Generation of parsers- https://drive.google.com/drive/u/3/folders/1SIHxKI1xFuNfYbnmfuiiK-2m2NrmqTHT
+
+Section B
+1.error recovery and detection- https://drive.google.com/drive/u/3/folders/1eRZH0Mxe1O7Lr5Nf1HgEm6cJ-i1A0_wD
+2.ad hoc and semantic methods- https://drive.google.com/drive/u/3/folders/1eRZH0Mxe1O7Lr5Nf1HgEm6cJ-i1A0_wD
+3. symbol table management- https://drive.google.com/drive/u/3/folders/1eRZH0Mxe1O7Lr5Nf1HgEm6cJ-i1A0_wD
+4. static memory and stack based memory allocation-https://drive.google.com/drive/u/3/folders/1eRZH0Mxe1O7Lr5Nf1HgEm6cJ-i1A0_wD
+
+section C
+Different intermediate forms- https://www.geeksforgeeks.org/intermediate-code-generation-in-compiler-design/
+syntax directed translation mechanisms- https://www.geeksforgeeks.org/syntax-directed-translation-in-compiler-design/
+attributed definition- https://www.geeksforgeeks.org/s-attributed-and-l-attributed-sdts-in-syntax-directed-translation/
+machine model- https://www.geeksforgeeks.org/target-code-generation-in-compiler-design/
+order of evaluation- https://www.sciencedirect.com/topics/computer-science/evaluation-order
+register allocation- https://www.geeksforgeeks.org/register-allocations-in-code-generation/
+code selection- https://www.tutorialspoint.com/compiler_design/compiler_design_code_generation.htm#:~:text=Selection%20of%20instruction%20%3A%20The%20code,choose%20the%20appropriate%20instructions%20wisely.
+
+Section D
+global data flow analysis- https://www.geeksforgeeks.org/data-flow-analysis-compiler/
+cocommand subexpression removal- https://www.geeksforgeeks.org/common-subexpression-elimination-code-optimization-technique-in-compiler-design/
+loop invariant code motion- https://cran.r-project.org/web/packages/rco/vignettes/opt-loop-invariant.html#:~:text=Loop%2Dinvariant%20code%20consists%20of,which%20performs%20this%20movement%20automatically.
+strength reduction- https://www.geeksforgeeks.org/induction-variable-and-strength-reduction/#:~:text=Strength%20Reduction%3A%20Strength%20reduction%20focuses,subtraction)%20to%20improve%20code%20performance.
