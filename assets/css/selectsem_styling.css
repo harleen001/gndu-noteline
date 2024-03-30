@@ -226,7 +226,10 @@ body {
 
     .a {
         padding: 0.5vh 0;
+    }
 
+    .anchors {
+        transform: translateY(5vh);
     }
 
 
