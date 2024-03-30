@@ -1,0 +1,141 @@
+
+body{
+    overflow-x: hidden;
+}
+#logo {
+    margin: 0;
+    height: 180px; /* Decrease the height */
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px; /* Adjust padding */
+    background-color: transparent; /* Remove background color */
+}
+
+.navbar img {
+    height: 80px; /* Adjust the height */
+}
+
+#headinggg {
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    margin-left: -40%; /* Add margin to move it slightly to the left */
+}
+#selectsub{
+    font-family: 'Inter', sans-serif;
+    font-size: 56px;
+    margin-left: 16%;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.buttons {
+    display: flex;
+    margin-right: 10%;
+}
+
+.buttons button {
+    margin-left: 10px; /* Adjust spacing between buttons */
+    background-color: black; /* Add background color to buttons */
+    color: white;
+    border: none;
+    padding: 30px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+.notebook {
+    position: relative;
+    width: 100%;
+   height: auto;
+  
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.notebook img {
+    height: 300px;
+    width: 70%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.notebook::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 68%;
+    margin-left: 16%;
+    margin-top: 1.5%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.5); /* Black color with 50% opacity */
+}
+
+.notebook .text-overlay {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional text shadow */
+}
+
+
+
+
+.subjects {
+  
+    display: flex;
+   
+    width: 80%;
+    margin-left: 6%;
+    justify-content: center;
+}
+
+.subject-btn {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    position: relative; /* Required for pseudo-element positioning */
+    padding: 10px 20px;
+    margin: 3px;
+   
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
+.subject-btn.active::after {
+    content: "";
+    position: absolute;
+    bottom: -5px; /* Adjust this value to control the thickness of the highlight */
+    left: 0;
+    width: 100%;
+    height: 5px; /* Adjust this value to control the height of the highlight */
+    background-color: #000000; /* Highlight color */
+    border-radius: 5px; /* Adjust this value to control the roundness of the highlight */
+}
+
+iframe {
+    width: 80%;
+    height: 99vh;
+    border: none;
+    margin-left: 16%;
+   
+}
+
+iframe::-webkit-scrollbar {
+    display: none;
+}
