@@ -186,6 +186,7 @@ body {
     .select-sem {
         flex-direction: column;
         align-items: center;
+        max-height: min-content !important;
     }
 
     .para,
@@ -222,4 +223,14 @@ body {
         translate: -50%;
         transform: translateY(-2vh);
     }
+
+    .a {
+        padding: 0.5vh 0;
+    }
+
+    .anchors {
+        transform: translateY(5vh);
+    }
+
+
 }
