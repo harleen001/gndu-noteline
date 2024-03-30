@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subject Notes</title>
+    <link rel="stylesheet" href="assets/css/subjectnotes_styling.css">
+    <link href="https://fonts.cdnfonts.com/css/abhaya-libre-2" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/calibri-light" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/inter" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/inria-serif" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <img id="logo" src="https://raw.githubusercontent.com/harleen001/gndu-noteline/main/assets/images/logo-bg.png" alt="Noteline Logo">
+        <p id="headinggg">NoteLine</p>
+        <div class="buttons">
+            <a href=""><button type="submit">Get Syllabus</button></a>
+            <a href=""><button type="submit">Search</button></a>
+        </div>
+    </nav>
+    <br>
+    <div class="notebook">
+        <img src="assets/images/selectsub.jpg" alt="">
+        <div class="text-overlay">
+            Semester - VI
+        </div>
+    </div>
+<p id="selectsub">Select Subject</p>
+    <div class="subjects">
+        <button class="subject-btn active" onclick="toggleSubject(1)">Entrepreneurship & Business Strategy</button>
+        <button class="subject-btn" onclick="toggleSubject(2)">System Hardware Design</button>
+        <button class="subject-btn" onclick="toggleSubject(3)">Digital Communication</button>
+        <button class="subject-btn" onclick="toggleSubject(4)">Communication Skill for Engineers</button>
+        <button class="subject-btn" onclick="toggleSubject(5)">Operating System </button>
+        <button class="subject-btn" onclick="toggleSubject(6)">Micro Controllers</button>
+      <!--<button class="subject-btn" onclick="toggleSubject(8)">Subject 8</button>  -->  
+    </div>
+    <iframe id="contentFrame" src="encsem6-subject1.html" frameborder="0"></iframe>
+    
+
+
+
+
+
+
+    <script>
+
+var activeSubject = 1; // Track the active subject
+
+function toggleSubject(subject) {
+    // Get all subject buttons
+    var subjectButtons = document.querySelectorAll('.subject-btn');
+    
+    // Remove 'active' class from all buttons
+    subjectButtons.forEach(function(btn) {
+        btn.classList.remove('active');
+    });
+    
+    // Add 'active' class to the clicked button
+    var clickedButton = document.querySelector('.subject-btn:nth-child(' + subject + ')');
+    clickedButton.classList.add('active');
+
+    // Change iframe source based on the clicked subject
+    var contentFrame = document.getElementById('contentFrame');
+    contentFrame.src = 'encsem6-subject' + subject + '.html';
+
+    // Update the active subject
+    activeSubject = subject;
+}
+
+
+
+    </script>
+</body>
+</html>
