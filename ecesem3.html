@@ -23,21 +23,21 @@
     <div class="notebook">
         <img src="assets/images/selectsub.jpg" alt="">
         <div class="text-overlay">
-            Semester - II 
+            Semester - III 
         </div>
     </div>
 <p id="selectsub">Select Subject</p>
     <div class="subjects">
-        <button class="subject-btn active" onclick="toggleSubject(1)">Engineering Mechanics</button>
-        <button class="subject-btn" onclick="toggleSubject(2)">Engineering Graphics</button>
-        <button class="subject-btn" onclick="toggleSubject(3)">Mathematics-II</button>
-        <button class="subject-btn" onclick="toggleSubject(4)">Physics</button>
-        <button class="subject-btn" onclick="toggleSubject(5)">Engineering Materials</button>
-        <button class="subject-btn" onclick="toggleSubject(6)">Punjabi Compulsory –II</button>
-     <!--   <button class="subject-btn" onclick="toggleSubject(7)">Punjabi Compulsory</button> -->
+        <button class="subject-btn active" onclick="toggleSubject(1)">Mathematics – III</button>
+        <button class="subject-btn" onclick="toggleSubject(2)">Digital Electronics</button>
+        <button class="subject-btn" onclick="toggleSubject(3)">Analysis & Synthesis of Networks</button>
+        <button class="subject-btn" onclick="toggleSubject(4)">Analog Devices & Circuits</button>
+        <button class="subject-btn" onclick="toggleSubject(5)">C & DSA</button>
+        <button class="subject-btn" onclick="toggleSubject(6)">Environmental Studies</button>
+        <button class="subject-btn" onclick="toggleSubject(7)">Drug Abuse</button> 
       <!--<button class="subject-btn" onclick="toggleSubject(8)">Subject 8</button>  -->  
     </div>
-    <iframe id="contentFrame" src="ecesem2-subject1.html" frameborder="0"></iframe>
+    <iframe id="contentFrame" src="ecesem3-subject1.html" frameborder="0"></iframe>
     
 
 
@@ -64,7 +64,7 @@ function toggleSubject(subject) {
 
     // Change iframe source based on the clicked subject
     var contentFrame = document.getElementById('contentFrame');
-    contentFrame.src = 'ecesem2-subject' + subject + '.html';
+    contentFrame.src = 'ecesem3-subject' + subject + '.html';
 
     // Update the active subject
     activeSubject = subject;
