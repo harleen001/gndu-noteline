@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/images/logo-bg.png">
+  <link href="https://fonts.cdnfonts.com/css/abhaya-libre-2" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/inter" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/images/logo.png" >
+  <title>Contact Us</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      
+      padding: 0;
+    }
+    .navbar {
+      background-color: white;
+      overflow: hidden;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+    .navbar a {
+      color: black;
+      text-decoration: none;
+    }
+    .navbar a:hover {
+      color: #333;
+    }
+    .navbar img {
+      height: 12rem;
+    }
+    .noteline {
+      font-size: 5rem;
+      color: #666;
+      
+      margin-right: 20px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .button {
+      background-color: rgb(7, 7, 7);
+      border: none;
+      padding: 20px 40px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      cursor: pointer;
+      font-family: 'Courier New', Courier, monospace;
+      margin-inline: 2px;
+      border-radius: 10px;
+    }
+    .team-heading {
+        margin-left: 6%;
+      text-align: left;
+      margin-top: 40px;
+      font-size: 36px;
+      color: #333;
+      font-weight: bold;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .team-description {
+        margin-left: 6%;
+        margin-right: 10%;
+      text-align: left;
+      color: #666;
+      margin-bottom: 20px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .card-container {
+        margin-left: 5%;
+        margin-right: 5%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 20px;
+      padding: 0 20px;
+    }
+    .card {
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      width: 25rem;
+    }
+    .card img {
+      width: 100%;
+      height: 20rem;
+      object-fit: cover;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+    .card-content {
+      padding: 20px;
+    }
+    .card-title {
+      font-weight: bold;
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+    .card-name {
+      color: #666;
+    }
+    @media only screen and (max-width: 768px) {
+      .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .navbar img {
+        margin-bottom: 20px;
+      }
+      .noteline {
+        margin-right: 0;
+        margin-bottom: 20px;
+        font-size: 4rem;
+      }
+      .button {
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+    }
+    footer {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    margin-left: 3%;
+    font-weight: 500;
+    
+    font-family: 'Abhaya Libre Medium', sans-serif;
+}
+@media (min-width:800px) and (max-width: 1300px){
+  .noteline {
+        margin-right: 0;
+        margin-bottom: 20px;
+        font-size: 4rem;
+      }
+      .card{
+        width: 20rem;
+      }
+}
+  </style>
+</head>
+<body>
+
+<div class="navbar">
+  <div>
+    <a href="#"><img src="assets/images/logo-bg.png" alt="Your Logo"></a>
+  </div>
+  <div class="noteline">NOTELINE</div>
+  <div>
+    <a href="index.html" class="button" style="color:white">Home</a>
+    <a href="feedback.html" class="button" style="color:white">Feedback</a>
+  </div>
+</div>
+
+<h2 class="team-heading">Meet Our Team</h2>
+<p class="team-description">We are a dedicated team of developers from GNDU committed to making the academic journey easier for our fellow students. Our mission is to create a user-friendly website where GNDU students can easily access notes for every semester, helping them excel in their studies and achieve their academic goals.</p>
+
+<div class="card-container">
+    <div class="card" >
+      <img src="assets/images/harleen.jpg" alt="Team Member 1">
+      <div class="card-content">
+        <h3 class="card-title">Harleen singh</h3>
+        <p class="card-name">Web Developer</p>
+        <p class="card-name">UI/UX Designer</p>
+      </div>
+    </div>
+    <div class="card" >
+        <img src="assets/images/Anahita.jpg" alt="Team Member 3">
+        <div class="card-content">
+          <h3 class="card-title">Anahita Sodhi</h3>
+          <p class="card-name">Web Developer</p>
+          <p class="card-name">UI/UX Designer</p>
+        </div>
+      </div>
+      <div class="card"  >
+        <img src="assets/images/Taran.jpg" alt="Team Member 6">
+        <div class="card-content">
+          <h3 class="card-title">Taranveer Singh</h3>
+          <p class="card-name">Web Developer</p>
+          <p class="card-name">UI/UX Designer</p>
+        </div>
+      </div>
+    <div class="card" >
+      <img src="assets/images/Aditya.jpg" alt="Team Member 2">
+      <div class="card-content">
+        <h3 class="card-title">Aditya Gupta</h3>
+        <p class="card-name">Web Developer</p>
+      </div>
+    </div>
+    
+      <div class="card" >
+        <img src="assets/images/kanika.jpg" alt="Team Member 4">
+        <div class="card-content">
+          <h3 class="card-title">Kanika Dhiman</h3>
+          <p class="card-name">Web Developer</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/images/navkirat.jpg" alt="Team Member 5">
+        <div class="card-content">
+          <h3 class="card-title">Navkirat Singh</h3>
+          <p class="card-name">Web Developer</p>
+          <p class="card-name">UI/UX Designer</p>
+        </div>
+      </div>
+     
+</div>
+<footer>
+    <div class="container">
+        <div class="left-section">
+            <h4 style="font-weight: 400;">GNDU-Noteline</h4>
+            <h4 style="font-weight: 400;"><a href="https://www.google.com/maps/search/guru+nanak+dev+university+amritsar/@31.6327122,74.8235175,17z/data=!3m1!4b1?entry=ttu">Guru Nanak Dev University, Amritsar Punjab IN ↗</a></h4>
+        </div>
+        <div class="right-section"></div>
+    </div>
+</footer>
+</body>
+</html>
