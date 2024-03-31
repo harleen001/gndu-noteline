@@ -187,5 +187,12 @@ iframe::-webkit-scrollbar {
         background-color: rgba(0, 0, 0, 0.5); /* Black color with 50% opacity */
     }
 
-    
+    .subjects{
+        display: block;
+    }
+    .subject-btn {
+        font-size: 14px;
+        padding: 10px 10px;
+        margin: 3px;
+    }
 }
