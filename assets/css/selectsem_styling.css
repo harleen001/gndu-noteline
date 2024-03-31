@@ -9,6 +9,12 @@ html {
     width: 100%;
 }
 
+a,
+li {
+    text-decoration: none;
+    display: flex;
+}
+
 body {
     background: #F8F4EF;
     margin: 1vh;
