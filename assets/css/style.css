@@ -4,6 +4,13 @@ body {
     overflow-y: auto;
     /* Hide vertical scrollbar */
 }
+#searchhere{
+    display: inline-flex;
+}
+
+#searchInput {
+    width: 200px; /* Adjust width as needed */
+}
 
 /* Hide scrollbar but allow scrolling */
 /* Hide scrollbar but allow scrolling */

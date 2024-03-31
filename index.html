@@ -34,7 +34,13 @@
     <header>
         <P class="header-1">NOTELINE</P>
         <p class="header-2">Exclusively For Guru Nanak Dev University</p>
-        <button>Search</button>
+
+    <div id="searchhere">  <input type="text" id="searchInput" list="suggestions" placeholder="Enter keywords...">
+        <datalist id="suggestions">
+            <!-- Suggestions will be dynamically added here -->
+        </datalist>
+
+         <button id="searchbutton" onclick="performSearch()">Search</button>  </div>  
     </header>
 
     <div class="notebook">
@@ -120,5 +126,54 @@
     </div>
 </footer>
 
+
+<script>
+
+     // Sample data for suggestions with associated URLs
+     var suggestionsData = [
+            { name: "Engineering Mechanics", url: "csesem1.html" },
+            { name: "Engineering Graphics", url: "csesem1.html" },
+            { name: "Mathematics-I", url: "csesem1.html" },
+            { name: "Physics", url: "csesem1.html" },
+            { name: "Engineering Materials", url: "csesem1.html" },
+            { name: "Punjabi Compulsory –I", url: "csesem1.html" },
+            { name: "Engineering Chemistry", url: "encsem1.html" },
+            { name: "Mathematics-II", url: "encsem2.html" },
+            { name: "Basic Electrical", url: "encsem1.html" },
+            { name: "Programming using Python", url: "encsem1.html" },
+            { name: "Communicative English-I", url: "encsem1.html" },
+            { name: "Workshop Practices", url: "encsem1.html" },
+            { name: "Punjabi Compulsory-II", url: "encsem2.html" }
+        ];
+
+        // Function to populate suggestions
+        function populateSuggestions() {
+            var suggestionsList = document.getElementById("suggestions");
+            suggestionsList.innerHTML = ""; // Clear previous suggestions
+            suggestionsData.forEach(function(suggestion) {
+                var option = document.createElement("option");
+                option.value = suggestion.name;
+                suggestionsList.appendChild(option);
+            });
+        }
+
+        // Function to perform search
+        function performSearch() {
+            var searchInput = document.getElementById("searchInput").value;
+            // Find the URL corresponding to the search input
+            var matchingSuggestion = suggestionsData.find(function(suggestion) {
+                return suggestion.name.toLowerCase() === searchInput.toLowerCase();
+            });
+            // If a matching suggestion is found, redirect to its associated page
+            if (matchingSuggestion) {
+                window.location.href = matchingSuggestion.url;
+            } else {
+                alert("No matching page found for: " + searchInput);
+            }
+        }
+
+        // Populate suggestions when the page loads
+        populateSuggestions();
+</script>
 </body>
 </html>
