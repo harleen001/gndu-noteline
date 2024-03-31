@@ -4,6 +4,7 @@ body{
 }
 #logo {
     margin: 0;
+    margin-left: 15%;;
     height: 180px; /* Decrease the height */
 }
 
@@ -22,7 +23,7 @@ body{
 #headinggg {
     font-family: 'Inter', sans-serif;
     font-size: 36px;
-    margin-left: -40%; /* Add margin to move it slightly to the left */
+    margin-left: -20%; /* Add margin to move it slightly to the left */
 }
 #selectsub{
     font-family: 'Inter', sans-serif;
@@ -138,4 +139,53 @@ iframe {
 
 iframe::-webkit-scrollbar {
     display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar{
+        display: block;
+    }
+    #headinggg {
+        margin-left: 20%;
+        margin-top: -10%;
+    }
+
+    .notebook .text-overlay {
+        font-size: 18px;
+    }
+    .notebook{
+        margin-left: -9%;
+    }
+
+    .subject-btn {
+        font-size: 14px;
+        padding: 5px 10px;
+        margin: 3px;
+    }
+
+    .notebook .text-overlay {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 35px;
+       
+    }
+    
+
+    
+    .notebook::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 64%;
+        margin-left: 18%;
+        margin-top: 5%;
+        height: 300px;
+        background-color: rgba(0, 0, 0, 0.5); /* Black color with 50% opacity */
+    }
+
+    
 }
