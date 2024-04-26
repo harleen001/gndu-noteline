@@ -1,7 +1,11 @@
 /* Your existing styles */
 /* Responsive styling */
 @media only screen and (max-width: 768px) {
-    body {
+
+    html {
+        overflow-x: hidden;
+    }
+    *,body {
         overflow-x: hidden; /* Hide horizontal scrollbar */
         overflow-y: auto; /* Hide vertical scrollbar */
     }
