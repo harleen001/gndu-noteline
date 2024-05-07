@@ -62,7 +62,6 @@ body {
 .logo {
     width: 200px;
     aspect-ratio: 1;
-    padding: 1vw 4vw;
     overflow-clip-margin: content-box;
     overflow: clip;
     top: -4vh;
@@ -242,7 +241,6 @@ body {
         left: 50%;
         translate: -50%;
         transform: translateY(-2vh);
-        object-fit: cover;
     }
 
     .a {
