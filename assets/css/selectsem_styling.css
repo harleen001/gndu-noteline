@@ -67,6 +67,7 @@ body {
     top: -4vh;
     left: 0;
     position: absolute;
+    margin: 1vh 2vh;
 }
 
 .anchors {
