@@ -86,8 +86,6 @@ body {
     margin: 0 1vw;
     text-decoration: none;
     color: black;
-    text-align: left;
-    min-width: 30vw;
 }
 
 .headings-container {
@@ -192,9 +190,6 @@ body {
     outline-color: transparent;
 }
 
-.sems a button{
-    box-shadow: inset 1vh 0.5vh 3vh rgba(85, 51, 17, 0.412);
-}
 
 .sems a button:hover {
     background: rgb(255, 229, 204);
@@ -233,7 +228,7 @@ body {
         width: 100%;
         flex-direction: column;
         transform: translateY(2vh);
-        align-self: flex-start;
+        align-self: center;
     }
     .sems a button{
         box-shadow: none;
@@ -247,6 +242,7 @@ body {
         left: 50%;
         translate: -50%;
         transform: translateY(-2vh);
+        object-fit: cover;
     }
 
     .a {
