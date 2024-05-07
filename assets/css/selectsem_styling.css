@@ -1,6 +1,8 @@
 * {
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 html {
@@ -25,6 +27,7 @@ body {
     overflow-x: hidden;
     overflow-y: scroll;
     padding-bottom: 10vh;
+    scroll-snap-align: y mandatory;
 }
 
 #heading {
