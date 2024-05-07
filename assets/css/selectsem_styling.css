@@ -86,6 +86,8 @@ body {
     margin: 0 1vw;
     text-decoration: none;
     color: black;
+    text-align: left;
+    min-width: 30vw;
 }
 
 .headings-container {
@@ -231,7 +233,7 @@ body {
         width: 100%;
         flex-direction: column;
         transform: translateY(2vh);
-        align-self: center;
+        align-self: flex-start;
     }
     .sems a button{
         box-shadow: none;
