@@ -230,7 +230,10 @@ body {
         transform: translateY(2vh);
         align-self: center;
     }
+    button{
+        box-shadow: inset 1vh 0.5vh 3vh rgba(85, 51, 17, 0);
 
+    }
     .navbar {
         flex-direction: column;
     }
