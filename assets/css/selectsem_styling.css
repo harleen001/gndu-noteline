@@ -181,12 +181,23 @@ body {
     width: 25%;
 
 }
+.sems a button:focus, button{
+    outline: none;
+    border: none;
+    outline-color: transparent;
+}
+
+.sems a button{
+    box-shadow: inset 1vh 0.5vh 3vh rgba(85, 51, 17, 0.412);
+}
 
 .sems a button:hover {
     background: rgb(255, 229, 204);
     scale: 0.97;
 }
-
+.heading2{
+    font-weight: 500;
+}
 @media screen and (max-width:700px) {
     .select-sem {
         flex-direction: column;
